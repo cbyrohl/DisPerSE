@@ -1383,7 +1383,7 @@ int ComputeFaceFromVertex(NDnetwork *net, int type)
     return 0;
 }
 
-inline int CNP(int n,int p)
+static inline int CNP(int n,int p)
 {
   unsigned long int i;
   unsigned long int up=1;

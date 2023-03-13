@@ -390,7 +390,7 @@ int LoadDensity_CIC(const char *fname,OLD_density_grid *density)
 
 
 
-inline int C2I(INT *coord, INT *index,int *dims, int ndims,int periodic)
+static inline int C2I(INT *coord, INT *index,int *dims, int ndims,int periodic)
 {
   INT val;
   INT dec;

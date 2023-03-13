@@ -109,7 +109,7 @@ int IsGadgetFile(const char *fname)
     return 1;
 }
 
-inline double red2dist(double z,double Om,double Ol)
+static inline double red2dist(double z,double Om,double Ol)
 {
     double H0=72;
     double c=299792.458;
